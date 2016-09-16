@@ -15,6 +15,7 @@ prometheus_exporters_common_group: prometheus
 
 prometheus_exporters_common_root_dir: /opt/prometheus/exporters
 prometheus_exporters_common_dist_dir: "{{ prometheus_exporters_common_root_dir }}/dist"
+prometheus_exporters_common_conf_dir: "/etc/prometheus/exporters"
 ```
 ## Dependencies
 
