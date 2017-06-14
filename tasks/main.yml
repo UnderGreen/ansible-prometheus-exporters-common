@@ -1,7 +1,7 @@
 ---
 
 - name: install needed packages
-  apt:
+  package:
     name: "{{ item }}"
     state: present
   with_items:
