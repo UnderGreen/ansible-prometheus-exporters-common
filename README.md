@@ -12,6 +12,7 @@ Available variables are listed below, along with default values:
 ```yaml
 prometheus_exporters_common_user:   prometheus
 prometheus_exporters_common_group:  prometheus
+prometheus_exporters_common_shell: "/sbin/nologin"
 
 prometheus_exporters_common_root_dir: /opt/prometheus/exporters
 prometheus_exporters_common_dist_dir: "{{ prometheus_exporters_common_root_dir }}/dist"
