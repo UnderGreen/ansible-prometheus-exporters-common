@@ -19,7 +19,7 @@
   user:
     name: "{{ prometheus_exporters_common_user }}"
     system: yes
-    shell: "/sbin/nologin"
+    shell: "{{ prometheus_exporters_common_shell }}"
     group: "{{ prometheus_exporters_common_group }}"
     createhome: no
 
