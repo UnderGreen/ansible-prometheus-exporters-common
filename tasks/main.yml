@@ -30,6 +30,7 @@
     owner: "{{ prometheus_exporters_common_user }}"
     group: "{{ prometheus_exporters_common_group }}"
     mode: 0755
+    check_mode: no
   with_items:
     - "{{ prometheus_exporters_common_root_dir }}"
     - "{{ prometheus_exporters_common_dist_dir }}"
