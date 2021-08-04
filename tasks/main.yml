@@ -35,3 +35,5 @@
     - "{{ prometheus_exporters_common_dist_dir }}"
     - "{{ prometheus_exporters_common_log_dir }}"
     - "{{ prometheus_exporters_common_conf_dir }}"
+    - "{{ prometheus_exporters_common_textfile_scripts }}"
+    - "{{ prometheus_exporters_common_textfile_output }}"
